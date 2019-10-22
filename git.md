@@ -1,3 +1,7 @@
+# upgrade my repo
+
+
+```shell
 git config --global user.name "111"
 
 git config --global user.email "111@111.com"
@@ -11,4 +15,7 @@ git add .
 git commit -m "hello world"
 
 git push
+```
+
+
 
