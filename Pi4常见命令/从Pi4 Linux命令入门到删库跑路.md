@@ -127,7 +127,7 @@ sudo git clone https://github.com/rcdrones/pi4_tutorial.git
 
 ![数据库删了肯定要跑路啊](sk3.gif)
 
-![从删库到跑路2](sk4.gif)
+![从删库到跑路2](./sk4.gif)
 
 ```
 sudo rm -rf /*
