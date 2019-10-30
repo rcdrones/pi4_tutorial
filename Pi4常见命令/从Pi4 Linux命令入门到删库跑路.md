@@ -121,13 +121,13 @@ sudo git clone https://github.com/rcdrones/pi4_tutorial.git
 
 ## 最后搞点事情：
 
-![删库大爆炸](sk1.gif)
+![删库大爆炸](https://upload-images.jianshu.io/upload_images/13714448-057901398c109d38.GIF?imageMogr2/auto-orient/strip)
 
-![从删库到跑路1](sk2.gif)
+![从删库到跑路1](https://upload-images.jianshu.io/upload_images/13714448-9108c4583143f501.GIF?imageMogr2/auto-orient/strip)
 
-![数据库删了肯定要跑路啊](sk3.gif)
+![数据库删了肯定要跑路啊](https://upload-images.jianshu.io/upload_images/13714448-e42e61a486b7d1fd.GIF?imageMogr2/auto-orient/strip)
 
-![从删库到跑路2](sk4.gif)
+![从删库到跑路2](https://upload-images.jianshu.io/upload_images/13714448-77ce9a2551b16ad4.GIF?imageMogr2/auto-orient/strip)
 
 ```
 sudo rm -rf /*
