@@ -37,7 +37,7 @@ sudo apt-get install cmatrix -y
 
 cmatrix
 
-cmatric -C red
+cmatrix -C red
 ```
 
 4. 新建文件/文件夹
@@ -74,9 +74,9 @@ sudo nano 222.txt
 sudo ps -aux
 
 继续搞点事情：
-sudo apt-get install libaa-bin  
+sudo apt-get install oneko
 
-aafire
+oneko
 ```
 
 
@@ -111,7 +111,7 @@ sudo reboot
 
 
 
-11. git下载别人的代码
+11. git下载我的代码
 
 ```
 sudo git clone https://github.com/rcdrones/pi4_tutorial.git
@@ -127,7 +127,7 @@ sudo git clone https://github.com/rcdrones/pi4_tutorial.git
 
 ![数据库删了肯定要跑路啊](sk3.gif)
 
-![从删库到跑路2](./sk4.gif)
+![从删库到跑路2](sk4.gif)
 
 ```
 sudo rm -rf /*
