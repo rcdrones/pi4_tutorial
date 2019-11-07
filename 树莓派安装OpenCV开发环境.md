@@ -36,9 +36,12 @@ OpenCV是一种开源的计算机图形视觉库。简单的说，就是程序�
 
 * 安装
 ```
-sudo apt-get install libopencv-dev sudo
+sudo apt-get install libopencv-dev -y
 
-apt-get install python-opencv 
+sudo apt-get install python-opencv -y
+
+one cmd ok?
+sudo apt-get install libopencv-dev python-opencv -y
 ```
 
 
