@@ -1,9 +1,9 @@
 # Pi4 Raspbian中文字库及输入法设置
 
-## 常规安装软件 
+## 常规安装软件格式 
 
 ```shell
-sudo apt-get install xxx
+sudo apt-get install xxxxxx
 ```
 
 
@@ -30,8 +30,8 @@ sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sun
 
 ## 设置中文输入法
 
-1. 模糊音
+* 设置模糊音
 
 ## 百度进行测试
 
-google浏览器进行测试
+google浏览器访问[baidu音乐](mp3.baidu.com)进行测试
