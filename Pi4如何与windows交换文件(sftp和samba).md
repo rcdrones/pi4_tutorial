@@ -78,11 +78,8 @@ sudo smbpasswd -a pi
 sudo samba restart
 ```
 
-5. pi4首尾工作   
-`sudo reboot`
-重启之后
-`netstat -tnl` ，查看是否有139和445端口开放。如果开放就表示准确了！
-回到windows上进行读取和写入的测试。
+5. pi4收尾工作   
+`sudo reboot`重启之后`netstat -tnl` ，查看是否有139和445端口开放。如果开放就表示准确了！回到windows上进行读取和写入的测试。
 
 6. 添加自动运行
 
