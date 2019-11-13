@@ -35,8 +35,8 @@ samba就是windows最早提出的**网上邻居共享文件夹**。
 
 ### 安装过程
 1. 安装samba软件
-`sudo apt-get install samba samba-common-bin`-y
-
+`sudo apt-get install samba samba-common-bin - y`
+  
 2. 配置/etc/samba/smb.conf文件
 
 ```
@@ -67,7 +67,8 @@ sudo nano /etc/samba/smb.conf
 ```
 
 3. 用`testparm`进行samba配置文件的测试
-正确的画，会列出来配置表。如果格式不正确，就会提示解析错误。
+    正确的画，会列出来配置表。如果格式不正确，就会提示解析错误。
+
 
 4. 为samba添加和创建密码，必须是linux里面已有的用户名！！
 
@@ -78,8 +79,12 @@ sudo smbpasswd -a pi
 sudo samba restart
 ```
 
-5. pi4收尾工作   
-`sudo reboot`重启之后`netstat -tnl` ，查看是否有139和445端口开放。如果开放就表示准确了！回到windows上进行读取和写入的测试。
+
+5. pi4收尾工作 
+
+  `sudo reboot`重启之后`netstat -tnl` ，查看是否有139和445端口开放。如果开放就表示准确了！回到windows上进行读取和写入的测试。
+
+  
 
 6. 添加自动运行
 
