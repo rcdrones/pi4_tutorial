@@ -9,6 +9,7 @@ from pygame.sprite import Group
 
 
 class OneImage(Sprite):
+	
 	def __init__(self, screen):
 		super().__init__()
 		self.screen = screen
@@ -72,9 +73,11 @@ def run_game():
 		#画图片（单个）
 		
 		one_image = pygame.image.load("images/ship.bmp")
+		
 		one_image_rect = one_image.get_rect()
 		one_image_rect.centerx = screen_rect.centerx
 		one_image_rect.bottom = screen_rect.top+100
+		
 		screen.blit(one_image, one_image_rect)
 
 		
