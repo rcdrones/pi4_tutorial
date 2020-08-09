@@ -23,6 +23,9 @@ curl https://download.argon40.com/argonone-setup-recalbox.sh | bash
 curl https://download.argon40.com/argonone-setup-osmc.sh | bash
 
 curl https://download.argon40.com/argonone-setup-libreelec.sh | bash
+
+https://github.com/meuter/argon-one-case-ubuntu-20.04
+
 ```
 
 > 多个教程地址：
